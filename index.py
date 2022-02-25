@@ -985,7 +985,9 @@ def login():
         time.sleep(2)
         
     if clickButton(connect_wallet_btn_img):
-        logger(afkapp_bcbot_32, emoji='🎉')       
+        logger(afkapp_bcbot_32, emoji='🎉')
+	time.sleep(2)   
+	waitForImage(connect_wallet_btn_img01)    
         
     if clickButton(connect_wallet_btn_img01):
         logger(afkapp_bcbot_32, emoji='🎉')
