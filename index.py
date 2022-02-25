@@ -1047,6 +1047,8 @@ def handleError():
         sendTelegramPrint()
         logger(afkapp_bcbot_42, telegram=True, emoji='💥')
         clickButton(ok_btn_img)
+	time.sleep(2)
+	logger(afkapp_bcbot_42, telegram=True, emoji='💥')
         clickButton(ok_btn_img1)
         logger(afkapp_bcbot_43, telegram=True, emoji='🔃')
         # pyautogui.hotkey('ctrl', 'f5')
